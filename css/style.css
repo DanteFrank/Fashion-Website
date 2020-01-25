@@ -1,0 +1,438 @@
+body {
+    overflow-x: hidden;
+    font-family: Lato, Perpetua;
+    color: #505962;
+}
+
+.offset:before {
+    height: 5.5rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+}
+/* Navbar Lucida Fax,*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    background: rgba(64, 64, 64, .6) !important;
+}
+
+.navbar .navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-brand .brand {
+    color: #ff4500;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ff4500;
+    /*padding-top: .8rem; */
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #0000cc;
+    border-bottom: 1px solid #0000cc;
+}
+
+/* Slider */
+.carousel-item  {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: space;
+    background-size: 631.5px auto;*/
+    
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 25%;;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    text-shadow: .1rem, .1rem, .5rem black;
+    padding-bottom: 1rem;
+}
+.carousel-caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem, .1rem, .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.carousel-caption p {
+    text-shadow: .1rem, .1rem, .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.carousel-item .btn-lg {
+    border-width: medium;
+    font-size: 1.2rem;
+}
+
+
+
+/* Portfolio Section */
+.jumbotron {
+    padding: 3rem 0 0rem;
+    /*background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/img/slide3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    margin: 0;
+}
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff4500;
+    padding-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+
+#portfolio img {
+    max-width: 100%;
+}
+
+#portfolio img:hover {
+    cursor: zoom-in;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 5vw);
+    grid-gap: 0px; 
+  }
+  
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+  
+.gallery__item--1 {
+    grid-column: 1 /2;
+    grid-row: 1 / 6;
+}
+.gallery__item--2 {
+    grid-column: 2 /3;
+    grid-row: 1 / 6;
+}
+.gallery__item--3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 6;
+}
+
+.gallery__item--4 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 6;
+}
+
+.photoGallery a {    
+    background-color: rgba(0, 0, 0, .7);
+
+}
+  
+  
+  
+/* Course Section*/
+
+#course {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/img/slide1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#course h3 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+#course .lead {
+    padding-bottom: 1.9rem;
+}
+
+#course .card {
+    background: transparent;
+}
+
+.fashion-box{
+    height: 150px;
+    padding-top: 50px;
+}
+.fashion-box .fashion-left {
+    height: 150px;
+    width: 15%;
+    float: left;
+}
+
+.fashion-box .fashion-left img {
+    padding-top: 13px;
+    font-size: 50px;
+}
+.fashion-box .fashion-right {
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.fashion-box .fashion-right h4 {
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.fashion-box .fashion-right p {
+    padding-left: 15px;
+    text-align: left;
+}
+.form-control {
+    width: 50%;
+    margin: auto;
+    background: transparent;
+}
+
+
+.btn-md {
+    border-width: medium; 
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+/* Services */
+#services {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/img/slide2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#service .col-md-6 {
+    padding: 20px;
+}
+.service-box{
+    height: 150px;
+}
+.service-box .service-left {
+    height: 150px;
+    width: 20%;
+    float: left;
+}
+
+.service-box .service-left img {
+    padding-top: 13px;
+    font-size: 50px;
+}
+.service-box .service-right {
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.service-box .service-right h4 {
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.service-box .service-right p {
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+
+/* About Us */
+#about {
+    margin: 0;
+    padding-top: 20px;
+}
+
+#about h1 {
+    padding-bottom: 20px;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+}
+#about h3 {
+    margin: 20px auto;
+}
+
+#team h3 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 1.9rem;
+}
+
+/* Contact */
+
+footer {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)),url(/img/slide3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer .card {
+    background: transparent;
+}
+
+footer h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer .seg-two {
+    margin-top: 40px;
+}
+
+footer .seg-two h2:before {
+    content: ' | ';
+    color: #ff4500;
+    padding-right: 10px;
+}
+footer .seg-two a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+footer .seg-two a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+footer .seg-three h2:before {
+    content: ' | ';
+    color: #ff4500;
+    padding-right: 10px;
+}
+
+footer .seg-three form input[type=submit] {
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    text-transform: uppercase;
+}
+
+.footer .seg-three form input[type=email] {
+    background: transparent;
+    border: 2px solid red;
+}
+footer .seg-three {
+    margin-top: 40px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Utilities */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+
+/* Medida Queries */
+
+@media (max-width: 767px) {
+    .carousel-caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        text-transform: uppercase;
+        padding-bottom: .5rem;
+    }
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    
+    .carousel-caption p {
+        font-size: .9rem;
+        padding-bottom: 1.6rem;
+    }
+    
+    .carousel-item .btn-lg {
+        border-width: small;
+        font-size: 1rem;
+    }
+
+    /* Course Section */
+
+    #course h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+    }
+    
+    #course .lead {
+        font-size: .8rem;
+        padding-bottom: 1.6rem;
+    }
+
+    .fashion-box .fashion-left {
+        height: 150px;
+        width: 20%;
+        float: left;
+    }
+    .fashion-box .fashion-right p {
+        font-size: .9rem;
+        padding-left: 10px;
+        margin-left: 10px;
+        text-align: left;
+    }
+    .fashion-box .fashion-left img {
+        padding-top: 13px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    
+}
+
+
+
